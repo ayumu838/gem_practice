@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "my practice gem"
   spec.description = "my practice gem"
-  spec.homepage = "none"
+  spec.homepage = "https://ayumu838.com"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
