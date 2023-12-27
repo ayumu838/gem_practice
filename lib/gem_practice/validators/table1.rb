@@ -6,7 +6,7 @@ module GemPractice
           errors = {}
           errors[:name] = name_valid(hash_values[:name])
 
-          errors
+          errors.delete_if { |_, v| v.nil? }
         end
 
         private
