@@ -8,7 +8,9 @@ module GemPractice
 
   class << self
     def valid?(hash_values)
-      Validators::Table1.valid?(hash_values)
+      table1 = Validators::Table1.new(hash_values)
+
+      table1.errors.messages
     end
   end
 end
